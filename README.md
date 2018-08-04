@@ -30,7 +30,7 @@ The SDK must be integrated into the sample project before it can run.
 
 	![download.jpg](images/download.jpg)
 
-3. Copy the `AgoraRTCSDK` js file into the root of your GitHub project folder. The file will have a sample name similar to `AgoraRTCSDK-2.2.0.js`. 
+3. Create a build folder in the root of the Github project and Copy the `AgoraRTCSDK` js file in the build folder. The file will have a sample name similar to `AgoraRTCSDK-2.2.0.js`. 
 
 	**Note:** `2.2.0` is a placeholder for the version number of the SDK js file you downloaded.
 
@@ -49,7 +49,7 @@ The SDK must be integrated into the sample project before it can run.
 	**After**
 
 	``` JavaScript
-	<script src="build/AgoraRTC-2.2.0.js"></script>
+	<script src="build/AgoraRTCSDK-2.2.0.js"></script>
 	```
 	
 3. Deploy the project on a web server. Make sure you access the page through an SSL (https) connection. The Agora SDK requires a secure connection to use the audio and video devices connected to the browser.
